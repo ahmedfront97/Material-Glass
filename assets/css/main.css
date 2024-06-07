@@ -2900,3 +2900,20 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  #materialGlass{
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  #caption{
+    font-size: 10px;
+  }
+
+
+  #compName{
+    font-size: 15px;
+  }
+}
